@@ -1,0 +1,400 @@
+body{
+	justify-content: center;
+	display: flex;
+	
+  	background-image: url("redankh.jpg"); 
+  	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: 22%;	
+}
+
+
+.main{
+	width: 70%;
+	font-size: 110%;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+input{
+	font-family: 'Caveat', cursive;
+	font-size: 130%;
+	color: #800303d4;
+	background-color: transparent;
+}
+.h1main{
+	text-align: center;
+	font-size: 500%;
+	margin: 0;
+	display: flex;
+    justify-content: space-around;
+}
+
+.imgs{
+	display: flex;
+	width: 100%;
+	padding: 1% 0;
+	opacity: 0.4;
+}
+#vamp{
+	width: 50%;
+	align-self: center;
+	padding: 0;
+}
+
+@media(max-width: 1000px){
+	.main{
+		width: 90%;
+		}
+}
+@media(max-width: 768px){
+	 .main{
+		width: 100%;
+		font-size: 180%;
+		}	
+
+	.pPrincipal{
+		font-size: 74%;
+		}
+}
+
+@media(max-width: 550px){
+	.pPrincipal{
+		font-size: 110%;
+		}
+	#vamp{
+		width: 100%;
+	}
+}
+/*____________________________________________________________________
+    Cabeçalho */
+
+.cabecalho{
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+.cabecalho  p {
+	font-size: 137%;
+    margin-right: 5%;
+}
+
+.cabecalho li:nth-child(3n + 2){
+	padding: 0 2%;
+	width: 29%;
+}
+
+.cabe{
+	width: 33%;
+	height: 12%;
+	margin-bottom: 1%;
+	display: flex;
+
+}
+
+#texCabe{
+	outline: none;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    width: auto;
+    text-align: start;
+    
+}
+
+.tex{
+
+	outline: none;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    text-align: center;
+        width: 100%;
+    
+}
+
+@media(max-width: 550px){
+	.cabecalho{
+	flex-flow: column wrap;
+	}
+	.cabe{
+		width: 100%;
+	}
+}
+
+	@media(max-width: 768px){
+		.cabe{
+		width: 100%;
+	}
+}
+
+    /*____________________________________________________________________
+    Atributos */
+
+    .titulo-atributos{
+    	width: 100%;
+    	text-align: center;
+    	font-size: 150%;
+		margin: 2% 0;
+    }
+
+.atributos{
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+.atributo{
+	width: 33%;
+
+}
+
+.atributo li{
+	display: flex;
+	justify-content: space-between;
+	/* margin: 0 1px; */
+}
+
+.atributo h2{
+	text-align: center;
+	margin-bottom: 3%; 
+    font-weight: bold;
+    font-size: 120%;
+}
+
+@media(max-width: 550px){
+	.atributos{
+		flex-flow: column wrap;
+	}
+		.atributo{
+		width: 100%;
+	}
+}
+
+@media(min-width: 550px){
+	
+		
+	} 
+@media(min-width: 769px){	
+
+.atributos .atributo:nth-child(2){
+	width: 29%;
+	padding: 0 2%;
+} }
+
+    /*____________________________________________________________________
+    habilidades */
+    .habilidades{
+    	display: flex;
+    	width: 100%;
+    	flex-flow: row wrap;
+
+    }
+
+	.habilidade{
+		width: 33%;
+	
+	}
+
+	
+	.habilidade li{
+		display: flex;
+		justify-content: space-between;
+		margin: 0 1px;
+	}
+	
+	.habilidade h2{
+		text-align: center;
+			margin-bottom: 3%;
+	}
+	
+	@media(max-width: 550px){
+		.habilidades{
+			flex-flow: column wrap;
+		}
+	}
+	
+	@media(max-width: 550px){
+		.habilidade{
+			width: 100%;
+		}
+	}
+
+	/*____________________________________________________________________
+    vantagens */
+
+    .area{
+    font-size: 100%;
+
+	outline: none;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    }
+
+    .autocontrole{
+    	margin: 30px 0;
+    }
+
+    .atributos > #antecedentes > .bolado > li > input {
+    	text-align: center;
+    }
+
+
+
+
+
+    /*____________________________________________________________________
+    bolinhas */
+
+
+.bolinha{
+	display: flex;
+	align-self: center;
+    border-radius:100%;
+    border:1px solid black;
+    width:12px;
+    height:12px;
+    background-color:white;
+}
+
+@media(min-width: 551px){
+	.bolinha{
+		width: 9px;
+		height: 9px;
+	}
+
+	.cheia{
+		width: 9px;
+		height: 9px;
+	}
+}
+
+.cheia{
+	display: flex;
+	align-self: center;
+    border-radius:100%;
+    border:1px solid black;
+    width:12px;
+    height:12px;
+    background-color:black;
+}
+
+.bolinhas{
+	display: flex;
+}
+
+.liCheia{
+	display: flex;
+}
+
+.bolinhasVirtudes{
+	margin-bottom: 32px;
+}
+
+.bolinhasDez{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+/*____________________________________________________________________
+    foot */
+
+
+ .hfp{
+	flex-flow: column;
+	justify-content: space-between;
+} 
+
+.sublinhado{
+	border-bottom: 2px solid black;
+	width: 100%;
+}
+
+.humanidade{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.humanidade > h2{
+	width: 100%;
+}
+
+.humanidadeText{
+	width:100%;
+}
+
+.humanidadeText > input{
+	   text-align: center;
+    width: 100%;
+}
+
+.humanidadeUl{
+	width:100%
+}
+
+.forcaDeVontade{
+	padding: 13% 0;
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px){
+	.forcaDeVontade{
+	    padding: 30% 0;
+		}
+		.autocontrole {
+    margin: 42px 0;
+}
+.vitalidade{
+	height: 77%;
+}
+.vitalidade li{
+	    height: 14%;
+	        padding: 1.5% 0;
+}
+		
+	} 
+@media(min-width: 769px){	
+.vitalidade{
+	height: 66%;
+}
+.vitalidade li{
+	    height: 10%;
+	        padding: 1.5% 0;
+}
+}
+.xpText{
+	width: 100%;
+	font-size: 25px;
+    text-align: center;
+}
+
+
+/*____________________________________________________________________
+    quadradinho */
+
+    .quadradinho{
+	display: flex;
+	align-self: center;
+    border-radius: 1%;
+    border:2px solid black;
+
+    width:12px;
+    height:12px;
+    }
+
+    .quadradinhosDez{
+	display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.quadVit{
+	display: flex;
+}
+
+ .vitalidade .quadradinho{
+	background-color: white;
+}
